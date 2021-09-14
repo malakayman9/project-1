@@ -7,7 +7,6 @@ struct product
 	string name;
 	long code;
 	float first_price;
-	
 	float second_price;
 	int quntity;
 	int discount;
