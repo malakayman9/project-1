@@ -256,7 +256,7 @@ int main()
 
 			
 			default:
-			cout << "plz enter number from 1 to 4 "<< endl;
+			cout << "plz enter number from 1 to 6 "<< endl;
 			break;
 
 			}
