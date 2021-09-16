@@ -21,8 +21,10 @@ struct product
 	int discount;
 	
 };
+	
 void print_arry(product x[], int y)
 {
+	
 	for (int i = 0; i < y; i++)
 	{
 		cout << "product name is " << x[i].name << endl;
@@ -32,12 +34,17 @@ void print_arry(product x[], int y)
 		cout << "product quantity =" << x[i].quntity << endl;
 		cout << "product discount =" << x[i].discount <<"%" << endl;
 	}
+									   
 }
 void get_name(product x[],int y)
+									   
 {
 	string name;
+									   
 	cout << "enter searsh name"<< endl;
+					  
 	cin >> name;
+	
 	for (int i = 0; i < y; i++)
 	{
 		if(x[i].name == name)
@@ -55,8 +62,11 @@ void get_name(product x[],int y)
 void code_searsh(product x[],int y) 
 {
 	long code;
+										    
 	cout << "enter searsh code"<< endl ;
+					 
 	cin >> code ;
+	
 	for (int i = 0; i < y; i++)
 	{
 		if (x[i].code == code)
@@ -71,6 +81,7 @@ void code_searsh(product x[],int y)
 		}
 		
 	}
+										    
 }
 void profit(product x[], int y) 
 {
