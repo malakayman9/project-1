@@ -234,10 +234,14 @@ void updateinfo(product  x[] , int y)
 }
 
 int main() 
+	
 {
 	const int size = 3;
+	
 	product x[size];
+	
 	cout << "plz fill the array"<< endl;
+	
 	for (int i = 0; i < size; i++)
 	{
 		cout << "plz enter name"<< endl;
@@ -255,14 +259,18 @@ int main()
 	}
 	
 	for (int i = 0; i > -1; i++)
-	{	int n;
+	{	
+		int n;
+	
 		cout << "to print array plz enter 1    " << endl;
 		cout << "to search by name plz enter 2 " << endl;
 		cout << "to srearch by code plz enter 3" << endl;
 		cout << "to find the profit plz enter 4" << endl;
 		cout << "to update info plz enter 5    " << endl;
 		cout << "to exit enter 6               " << endl;
+	
 		cin >> n;
+	
 			switch (n)
 			{
 			case 1:
@@ -270,11 +278,11 @@ int main()
 				break;
 
 			case 2:
-			get_name(x , size);
+				get_name(x , size);
 			break;
 
 			case 3:
-			code_searsh(x , size);
+				code_searsh(x , size);
 			break;
 
 			case 4:
@@ -286,11 +294,11 @@ int main()
 				break;
 
 			case 6:
-			return 0;
+				return 0;
 
 			
 			default:
-			cout << "plz enter number from 1 to 6 "<< endl;
+				cout << "plz enter number from 1 to 6 "<< endl;
 			break;
 
 			}
