@@ -1,15 +1,25 @@
 # project-1
 #include<iostream>
+	
 #include<string>
+	
 using namespace std;
+	
 struct product
 {
+	
 	string name;
+	
 	long code;
+	
 	float first_price;
+	
 	float second_price;
+	
 	int quntity;
+	
 	int discount;
+	
 };
 void print_arry(product x[], int y)
 {
