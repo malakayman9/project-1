@@ -23,6 +23,7 @@ struct product
 };
 	
 void print_arry(product x[], int y)
+	
 {
 	
 	for (int i = 0; i < y; i++)
@@ -36,6 +37,7 @@ void print_arry(product x[], int y)
 	}
 									   
 }
+									   
 void get_name(product x[],int y)
 									   
 {
@@ -60,7 +62,9 @@ void get_name(product x[],int y)
 		}
 	}
 }
+										    
 void code_searsh(product x[],int y) 
+										    
 {
 										    
 	long code;
@@ -85,6 +89,7 @@ void code_searsh(product x[],int y)
 	}
 										    
 }
+										    
 void profit(product x[], int y) 
 {
 										    
@@ -107,6 +112,7 @@ void profit(product x[], int y)
 	}
 	
 }
+	
 void updateinfo(product  x[] , int y) 
 {
 	
