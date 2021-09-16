@@ -236,6 +236,7 @@ void updateinfo(product  x[] , int y)
 int main() 
 	
 {
+	
 	const int size = 3;
 	
 	product x[size];
