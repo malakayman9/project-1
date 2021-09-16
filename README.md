@@ -39,6 +39,7 @@ void print_arry(product x[], int y)
 void get_name(product x[],int y)
 									   
 {
+									   
 	string name;
 									   
 	cout << "enter searsh name"<< endl;
@@ -61,6 +62,7 @@ void get_name(product x[],int y)
 }
 void code_searsh(product x[],int y) 
 {
+										    
 	long code;
 										    
 	cout << "enter searsh code"<< endl ;
@@ -85,8 +87,11 @@ void code_searsh(product x[],int y)
 }
 void profit(product x[], int y) 
 {
+										    
 	int prof = 0;
+										    
 	int total_prof;
+										    
 	for (int i = 0; i < y; i++) 
 	{
 		prof = x[i].second_price - x[i].first_price;
@@ -104,6 +109,7 @@ void profit(product x[], int y)
 }
 void updateinfo(product  x[] , int y) 
 {
+	
 	for (int i = 0; i > -1; i++)
 	{
 		int choise;
@@ -117,6 +123,7 @@ void updateinfo(product  x[] , int y)
 		cin >> choise;
 
 		string oldname;
+	
 		 switch(choise)
 		 {
 		 case 1:
